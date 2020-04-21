@@ -14,9 +14,9 @@ public class TerminadosEnTres {
 	
 	public static int verTerminaTres(ArrayList<Integer>numero) {
 		int contador = 0;
-		Object comprobar[] = numero.toArray();
-		for (int i = 0; i < comprobar.length; i++) {
-			if(String.valueOf(comprobar[i]).endsWith("3")) {
+		Object comprobador[] = numero.toArray();
+		for (int i = 0; i < comprobador.length; i++) {
+			if(String.valueOf(comprobador[i]).endsWith("3")) {
 				contador++;
 			}
 		}
