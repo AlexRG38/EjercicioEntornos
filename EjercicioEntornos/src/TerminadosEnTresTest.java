@@ -16,6 +16,6 @@ class TerminadosEnTresTest {
 		numero.add(0);
 
 		int resultado = TerminadosEnTres.verTerminaTres(numero);
-		assertEquals("El ArrayList es 0", resultado);
+		assertEquals(resultado,0);
 	}
 }
