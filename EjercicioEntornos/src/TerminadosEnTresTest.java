@@ -4,8 +4,16 @@ import java.util.ArrayList;
 
 import org.junit.jupiter.api.Test;
 
+/**
+ * 
+ * @author Alejandro Ruiz Gallego
+ *
+ */
 class TerminadosEnTresTest {
 
+	/**
+	 * Metodo que testea que ocurre cuando todos los numeros de la arrayList terminan en 0
+	 */
 	@Test
 	public void testNumerosCero() {
 		ArrayList<Integer> numero = new ArrayList<Integer>();
@@ -19,6 +27,9 @@ class TerminadosEnTresTest {
 		assertEquals(resultado,0);
 	}
 	
+	/**
+	 * Metodo que testea que ocurre los numeros de la arrayList son habituales
+	 */
 	@Test
 	public void testProcedimientoNormal() {
 		ArrayList<Integer> numero = new ArrayList<Integer>();

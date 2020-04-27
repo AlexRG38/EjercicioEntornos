@@ -1,6 +1,16 @@
 import java.util.ArrayList;
 
+/**
+ * 
+ * @author Alejandro Ruiz Gallego
+ *
+ */
 public class TerminadosEnTres {
+	
+	/**
+	 * Metodo main de la clase TerminadosEnTres
+	 * @param args
+	 */
 	public static void main(String [] args) {
 		
 		ArrayList<Integer> numero = new ArrayList<Integer>();
@@ -12,6 +22,11 @@ public class TerminadosEnTres {
 		System.out.println(verTerminaTres(numero));
 	}
 	
+	/**
+	 * Este metodo sirve para saber los numeros que contiene la arraylist nummero terminen en 3
+	 * @param numero
+	 * @return contador
+	 */
 	public static int verTerminaTres(ArrayList<Integer>numero) {
 		int contador = 0;
 		Object comprobador[] = numero.toArray();
