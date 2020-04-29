@@ -4,8 +4,17 @@ import java.util.ArrayList;
 
 import org.junit.jupiter.api.Test;
 
+/**
+ * 
+ * @author Francisco Nieto-Marquez Guijarro
+ *
+ */
 class SumaEnterosTest {
-
+	
+	/**
+	 * Metodo que testea que ocurre cuando todos los numeros de la arrayList son 10
+	 * @param args
+	 */
 	@Test
 	void testSumatorioNumerosPositivos() {
 		ArrayList<Integer> numero = new ArrayList<Integer>();
@@ -18,6 +27,10 @@ class SumaEnterosTest {
 		assertEquals(resultado,10);
 	}
 	
+	/**
+	 * Metodo que testea que ocurre los numeros de la arrayList son negativos
+	 * @param args
+	 */
 	@Test
 	void testSumatorioNumerosNegativos() {
 		ArrayList<Integer> numero = new ArrayList<Integer>();

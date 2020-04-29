@@ -1,6 +1,14 @@
 import java.util.ArrayList;
-
+/**
+ * 
+ * @author Francisco Nieto-Marquez Guijarro
+ *
+ */
 public class SumaEnteros {
+	/**
+	 * Metodo main de la clase Suma Enteros
+	 * @param args
+	 */
 	public static void main(String [] args) {
 		
 		ArrayList<Integer> numero = new ArrayList<Integer>();
@@ -11,7 +19,11 @@ public class SumaEnteros {
 		numero.add(503);
 		System.out.println(sumatorio(numero));
 	}
-	
+	/**
+	 * Este metodo sirve para realizar la suma y media de los numeros enteros
+	 * @param numero
+	 * @return suma
+	 */
 	public static int sumatorio(ArrayList<Integer>numero) {
 		int suma = 0;
 		Object comprobador[] = numero.toArray();
